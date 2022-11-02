@@ -3,7 +3,6 @@ function priceOfProducts(saltBeefPrice, saltBeefRequest, riceRequest) {
 	const totalRicePrice = riceRequest * ricePrice;
 	const totalSaltBeefPrice = saltBeefPrice * saltBeefRequest;
 	return totalRicePrice + totalSaltBeefPrice;
-
 }
 
 module.exports = priceOfProducts;
