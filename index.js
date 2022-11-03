@@ -1,5 +1,6 @@
 function priceOfProducts(saltBeefPrice, saltBeefRequest, riceRequest) {
-	// write your code here
+	return Math.round(saltBeefPrice / 3 * 100) / 100 * riceRequest + saltBeefPrice * saltBeefRequest;
+
 }
 
 module.exports = priceOfProducts;
